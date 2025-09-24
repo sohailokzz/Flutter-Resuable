@@ -115,7 +115,7 @@ class ComponentThemes {
   static CardThemeData lightCardTheme = CardThemeData(
     elevation: 4,
     color: AppColors.lightSurface,
-    shadowColor: Colors.black.withOpacity(0.1),
+    shadowColor: Colors.black.withValues(alpha: 0.1),
     shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
     margin: const EdgeInsets.all(8),
   );
@@ -123,7 +123,7 @@ class ComponentThemes {
   static CardThemeData darkCardTheme = CardThemeData(
     elevation: 4,
     color: AppColors.darkSurface,
-    shadowColor: Colors.black.withOpacity(0.3),
+    shadowColor: Colors.black.withValues(alpha: 0.3),
     shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
     margin: const EdgeInsets.all(8),
   );
