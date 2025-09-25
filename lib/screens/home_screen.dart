@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_reusable/theme/app_colors.dart';
+import 'package:flutter_reusable/widgets/custom_button.dart';
 import '../theme/theme_helper.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -128,6 +130,17 @@ class HomeScreen extends StatelessWidget {
                 ),
                 textAlign: TextAlign.center,
               ),
+            ),
+
+            SizedBox(
+              height: 16,
+            ),
+            CustomButton(
+              backgroundColor: ThemeHelper.isDarkMode(context)
+                  ? AppColors.darkPrimary
+                  : AppColors.lightPrimary,
+              onPressed: () {},
+              text: "Custom Button",
             ),
           ],
         ),

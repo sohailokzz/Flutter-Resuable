@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_reusable/screens/home_screen.dart';
+import 'package:responsive_sizer/responsive_sizer.dart';
 import 'theme/app_theme.dart';
 
 void main() {
@@ -11,16 +12,20 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Theme Architecture',
-      debugShowCheckedModeBanner: false,
+    return ResponsiveSizer(
+      builder: (context, orientation, screenType) {
+        return MaterialApp(
+          title: 'Flutter Theme Architecture',
+          debugShowCheckedModeBanner: false,
 
-      // Use separated theme files
-      theme: AppTheme.lightTheme,
-      darkTheme: AppTheme.darkTheme,
-      themeMode: ThemeMode.dark,
+          // Use separated theme files
+          theme: AppTheme.lightTheme,
+          darkTheme: AppTheme.darkTheme,
+          themeMode: ThemeMode.system,
 
-      home: HomeScreen(),
+          home: HomeScreen(),
+        );
+      },
     );
   }
 }
