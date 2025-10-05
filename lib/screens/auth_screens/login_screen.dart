@@ -3,6 +3,8 @@ import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 
+import '../../utilis/app_colors.dart';
+import '../../utilis/image_assets.dart';
 import 'login_screen_vm.dart';
 
 class LoginScreen extends StatelessWidget {
@@ -165,7 +167,9 @@ class LoginScreen extends StatelessWidget {
                             width: 280,
                             onTap: () {},
                             borderRadius: 24,
-                            bgColor: AppColor.kBackground.withOpacity(0.3),
+                            bgColor: AppColor.kBackground.withValues(
+                              alpha: 0.3,
+                            ),
                             text: 'Continue with Google',
                             icons: ImagesPath.kGoogleIcon,
                           ),
@@ -591,10 +595,10 @@ class PasswordTextField extends StatefulWidget {
     required this.borderRadius,
   });
   @override
-  _PasswordTextFieldState createState() => _PasswordTextFieldState();
+  PasswordTextFieldState createState() => PasswordTextFieldState();
 }
 
-class _PasswordTextFieldState extends State<PasswordTextField> {
+class PasswordTextFieldState extends State<PasswordTextField> {
   bool _obscureText = false;
   @override
   Widget build(BuildContext context) {
@@ -750,18 +754,4 @@ class PrimaryTextFormField extends StatelessWidget {
       ),
     );
   }
-}
-
-class AppColor {
-  static Color kPrimary = const Color(0XFF1460F2);
-  static Color kWhite = const Color(0XFFFFFFFF);
-  static Color kBackground = const Color(0XFFFAFAFA);
-  static Color kGrayscaleDark100 = const Color(0XFF1C1C1E);
-  static Color kLine = const Color(0XFFEBEBEB);
-  static Color kBackground2 = const Color(0XFFF6F6F6);
-  static Color kGrayscale40 = const Color(0XFFAEAEB2);
-}
-
-class ImagesPath {
-  static String kGoogleIcon = 'assets/images/googleSymbol.png';
 }
