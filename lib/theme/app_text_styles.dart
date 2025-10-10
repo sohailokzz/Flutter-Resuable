@@ -9,159 +9,159 @@ class AppTextStyles {
 
   // Light Theme Text Styles
   static TextTheme lightTextTheme = TextTheme(
-    displayLarge: GoogleFonts.roboto(
+    displayLarge: GoogleFonts.plusJakartaSans(
       fontSize: 57,
       fontWeight: FontWeight.w400,
-      color: AppColors.lightTextPrimary,
+      color: AppColor.lightTextPrimary,
     ),
-    displayMedium: GoogleFonts.roboto(
+    displayMedium: GoogleFonts.plusJakartaSans(
       fontSize: 45,
       fontWeight: FontWeight.w400,
-      color: AppColors.lightTextPrimary,
+      color: AppColor.lightTextPrimary,
     ),
-    displaySmall: GoogleFonts.roboto(
+    displaySmall: GoogleFonts.plusJakartaSans(
       fontSize: 36,
       fontWeight: FontWeight.w400,
-      color: AppColors.lightTextPrimary,
+      color: AppColor.lightTextPrimary,
     ),
-    headlineLarge: GoogleFonts.roboto(
+    headlineLarge: GoogleFonts.plusJakartaSans(
       fontSize: 32,
       fontWeight: FontWeight.w600,
-      color: AppColors.lightTextPrimary,
+      color: AppColor.lightTextPrimary,
     ),
-    headlineMedium: GoogleFonts.roboto(
+    headlineMedium: GoogleFonts.plusJakartaSans(
       fontSize: 28,
       fontWeight: FontWeight.w600,
-      color: AppColors.lightTextPrimary,
+      color: AppColor.lightTextPrimary,
     ),
-    headlineSmall: GoogleFonts.roboto(
+    headlineSmall: GoogleFonts.plusJakartaSans(
       fontSize: 24,
       fontWeight: FontWeight.w600,
-      color: AppColors.lightTextPrimary,
+      color: AppColor.lightTextPrimary,
     ),
-    titleLarge: GoogleFonts.roboto(
+    titleLarge: GoogleFonts.plusJakartaSans(
       fontSize: 22,
       fontWeight: FontWeight.w500,
-      color: AppColors.lightTextPrimary,
+      color: AppColor.lightTextPrimary,
     ),
-    titleMedium: GoogleFonts.roboto(
+    titleMedium: GoogleFonts.plusJakartaSans(
       fontSize: 16,
       fontWeight: FontWeight.w500,
-      color: AppColors.lightTextPrimary,
+      color: AppColor.lightTextPrimary,
     ),
-    titleSmall: GoogleFonts.roboto(
+    titleSmall: GoogleFonts.plusJakartaSans(
       fontSize: 14,
       fontWeight: FontWeight.w500,
-      color: AppColors.lightTextPrimary,
+      color: AppColor.lightTextPrimary,
     ),
-    bodyLarge: GoogleFonts.roboto(
+    bodyLarge: GoogleFonts.plusJakartaSans(
       fontSize: 16,
       fontWeight: FontWeight.w400,
-      color: AppColors.lightTextPrimary,
+      color: AppColor.lightTextPrimary,
     ),
-    bodyMedium: GoogleFonts.roboto(
+    bodyMedium: GoogleFonts.plusJakartaSans(
       fontSize: 14,
       fontWeight: FontWeight.w400,
-      color: AppColors.lightTextPrimary,
+      color: AppColor.lightTextPrimary,
     ),
-    bodySmall: GoogleFonts.roboto(
+    bodySmall: GoogleFonts.plusJakartaSans(
       fontSize: 12,
       fontWeight: FontWeight.w400,
-      color: AppColors.lightTextSecondary,
+      color: AppColor.lightTextSecondary,
     ),
-    labelLarge: GoogleFonts.roboto(
+    labelLarge: GoogleFonts.plusJakartaSans(
       fontSize: 14,
       fontWeight: FontWeight.w500,
-      color: AppColors.lightTextPrimary,
+      color: AppColor.lightTextPrimary,
     ),
-    labelMedium: GoogleFonts.roboto(
+    labelMedium: GoogleFonts.plusJakartaSans(
       fontSize: 12,
       fontWeight: FontWeight.w500,
-      color: AppColors.lightTextPrimary,
+      color: AppColor.lightTextPrimary,
     ),
-    labelSmall: GoogleFonts.roboto(
+    labelSmall: GoogleFonts.plusJakartaSans(
       fontSize: 11,
       fontWeight: FontWeight.w500,
-      color: AppColors.lightTextSecondary,
+      color: AppColor.lightTextSecondary,
     ),
   );
 
   // Dark Theme Text Styles
   static TextTheme darkTextTheme = TextTheme(
-    displayLarge: GoogleFonts.roboto(
+    displayLarge: GoogleFonts.plusJakartaSans(
       fontSize: 57,
       fontWeight: FontWeight.w400,
-      color: AppColors.darkTextPrimary,
+      color: AppColor.darkTextPrimary,
     ),
-    displayMedium: GoogleFonts.roboto(
+    displayMedium: GoogleFonts.plusJakartaSans(
       fontSize: 45,
       fontWeight: FontWeight.w400,
-      color: AppColors.darkTextPrimary,
+      color: AppColor.darkTextPrimary,
     ),
-    displaySmall: GoogleFonts.roboto(
+    displaySmall: GoogleFonts.plusJakartaSans(
       fontSize: 36,
       fontWeight: FontWeight.w400,
-      color: AppColors.darkTextPrimary,
+      color: AppColor.darkTextPrimary,
     ),
-    headlineLarge: GoogleFonts.roboto(
+    headlineLarge: GoogleFonts.plusJakartaSans(
       fontSize: 32,
       fontWeight: FontWeight.w600,
-      color: AppColors.darkTextPrimary,
+      color: AppColor.darkTextPrimary,
     ),
-    headlineMedium: GoogleFonts.roboto(
+    headlineMedium: GoogleFonts.plusJakartaSans(
       fontSize: 28,
       fontWeight: FontWeight.w600,
-      color: AppColors.darkTextPrimary,
+      color: AppColor.darkTextPrimary,
     ),
-    headlineSmall: GoogleFonts.roboto(
+    headlineSmall: GoogleFonts.plusJakartaSans(
       fontSize: 24,
       fontWeight: FontWeight.w600,
-      color: AppColors.darkTextPrimary,
+      color: AppColor.darkTextPrimary,
     ),
-    titleLarge: GoogleFonts.roboto(
+    titleLarge: GoogleFonts.plusJakartaSans(
       fontSize: 22,
       fontWeight: FontWeight.w500,
-      color: AppColors.darkTextPrimary,
+      color: AppColor.darkTextPrimary,
     ),
-    titleMedium: GoogleFonts.roboto(
+    titleMedium: GoogleFonts.plusJakartaSans(
       fontSize: 16,
       fontWeight: FontWeight.w500,
-      color: AppColors.darkTextPrimary,
+      color: AppColor.darkTextPrimary,
     ),
-    titleSmall: GoogleFonts.roboto(
+    titleSmall: GoogleFonts.plusJakartaSans(
       fontSize: 14,
       fontWeight: FontWeight.w500,
-      color: AppColors.darkTextPrimary,
+      color: AppColor.darkTextPrimary,
     ),
-    bodyLarge: GoogleFonts.roboto(
+    bodyLarge: GoogleFonts.plusJakartaSans(
       fontSize: 16,
       fontWeight: FontWeight.w400,
-      color: AppColors.darkTextPrimary,
+      color: AppColor.darkTextPrimary,
     ),
-    bodyMedium: GoogleFonts.roboto(
+    bodyMedium: GoogleFonts.plusJakartaSans(
       fontSize: 14,
       fontWeight: FontWeight.w400,
-      color: AppColors.darkTextPrimary,
+      color: AppColor.darkTextPrimary,
     ),
-    bodySmall: GoogleFonts.roboto(
+    bodySmall: GoogleFonts.plusJakartaSans(
       fontSize: 12,
       fontWeight: FontWeight.w400,
-      color: AppColors.darkTextSecondary,
+      color: AppColor.darkTextSecondary,
     ),
-    labelLarge: GoogleFonts.roboto(
+    labelLarge: GoogleFonts.plusJakartaSans(
       fontSize: 14,
       fontWeight: FontWeight.w500,
-      color: AppColors.darkTextPrimary,
+      color: AppColor.darkTextPrimary,
     ),
-    labelMedium: GoogleFonts.roboto(
+    labelMedium: GoogleFonts.plusJakartaSans(
       fontSize: 12,
       fontWeight: FontWeight.w500,
-      color: AppColors.darkTextPrimary,
+      color: AppColor.darkTextPrimary,
     ),
-    labelSmall: GoogleFonts.roboto(
+    labelSmall: GoogleFonts.plusJakartaSans(
       fontSize: 11,
       fontWeight: FontWeight.w500,
-      color: AppColors.darkTextSecondary,
+      color: AppColor.darkTextSecondary,
     ),
   );
 }
