@@ -667,6 +667,7 @@ class PasswordTextFieldState extends State<PasswordTextField> {
   }
 }
 
+// ignore: must_be_immutable
 class PrimaryTextFormField extends StatelessWidget {
   PrimaryTextFormField({
     super.key,
