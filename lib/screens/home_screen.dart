@@ -137,8 +137,8 @@ class HomeScreen extends StatelessWidget {
             ),
             CustomButton(
               backgroundColor: ThemeHelper.isDarkMode(context)
-                  ? AppColors.darkPrimary
-                  : AppColors.lightPrimary,
+                  ? AppColor.darkPrimary
+                  : AppColor.lightPrimary,
               onPressed: () {},
               text: "Custom Button",
             ),

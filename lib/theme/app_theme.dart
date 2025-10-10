@@ -13,16 +13,16 @@ class AppTheme {
 
     // Color Scheme
     colorScheme: const ColorScheme.light(
-      primary: AppColors.lightPrimary,
-      onPrimary: AppColors.lightOnPrimary,
-      secondary: AppColors.lightSecondary,
-      onSecondary: AppColors.lightOnSecondary,
-      surface: AppColors.lightSurface,
-      error: AppColors.lightError,
+      primary: AppColor.lightPrimary,
+      onPrimary: AppColor.lightOnPrimary,
+      secondary: AppColor.lightSecondary,
+      onSecondary: AppColor.lightOnSecondary,
+      surface: AppColor.lightSurface,
+      error: AppColor.lightError,
     ),
 
     // Scaffold
-    scaffoldBackgroundColor: AppColors.lightBackground,
+    scaffoldBackgroundColor: AppColor.lightBackground,
 
     // Text Theme
     textTheme: AppTextStyles.lightTextTheme,
@@ -37,9 +37,9 @@ class AppTheme {
     // Extensions
     extensions: <ThemeExtension<dynamic>>[
       const AppCustomColors(
-        success: AppColors.success,
-        warning: AppColors.warning,
-        info: AppColors.info,
+        success: AppColor.success,
+        warning: AppColor.warning,
+        info: AppColor.info,
         cardShadow: Colors.black12,
         divider: Colors.grey,
       ),
@@ -53,16 +53,16 @@ class AppTheme {
 
     // Color Scheme
     colorScheme: const ColorScheme.dark(
-      primary: AppColors.darkPrimary,
-      onPrimary: AppColors.darkOnPrimary,
-      secondary: AppColors.darkSecondary,
-      onSecondary: AppColors.darkOnSecondary,
-      surface: AppColors.darkSurface,
-      error: AppColors.darkError,
+      primary: AppColor.darkPrimary,
+      onPrimary: AppColor.darkOnPrimary,
+      secondary: AppColor.darkSecondary,
+      onSecondary: AppColor.darkOnSecondary,
+      surface: AppColor.darkSurface,
+      error: AppColor.darkError,
     ),
 
     // Scaffold
-    scaffoldBackgroundColor: AppColors.darkBackground,
+    scaffoldBackgroundColor: AppColor.darkBackground,
 
     // Text Theme
     textTheme: AppTextStyles.darkTextTheme,
@@ -77,9 +77,9 @@ class AppTheme {
     // Extensions
     extensions: <ThemeExtension<dynamic>>[
       const AppCustomColors(
-        success: AppColors.success,
-        warning: AppColors.warning,
-        info: AppColors.info,
+        success: AppColor.success,
+        warning: AppColor.warning,
+        info: AppColor.info,
         cardShadow: Colors.black38,
         divider: Colors.grey,
       ),
