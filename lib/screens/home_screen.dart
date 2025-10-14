@@ -15,7 +15,7 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text(
           'Theme Architecture Demo',
-          style: theme.textTheme.titleLarge!.copyWith(),
+          style: theme.textTheme.titleLarge,
         ),
       ),
       body: SingleChildScrollView(

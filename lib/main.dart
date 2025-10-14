@@ -6,7 +6,9 @@ import 'package:responsive_sizer/responsive_sizer.dart';
 import 'theme/app_theme.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(
+    MyApp(),
+  );
 }
 
 class MyApp extends StatelessWidget {
