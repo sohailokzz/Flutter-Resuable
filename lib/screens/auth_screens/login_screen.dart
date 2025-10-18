@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_reusable/widgets/divider_row.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 import '../../utilis/app_colors.dart';
@@ -304,49 +305,6 @@ class _SecondaryButtonState extends State<SecondaryButton>
           ),
         ),
       ),
-    );
-  }
-}
-
-class DividerRow extends StatelessWidget {
-  final String title;
-  const DividerRow({
-    required this.title,
-    super.key,
-  });
-  @override
-  Widget build(BuildContext context) {
-    return Row(
-      children: [
-        Expanded(
-          flex: 2,
-          child: Divider(
-            color: AppColor.kLine,
-          ),
-        ),
-        Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 6),
-          child: Text(
-            title,
-            style:
-                GoogleFonts.plusJakartaSans(
-                  fontSize: 14,
-                  fontWeight: FontWeight.w500,
-                  color: AppColor.kWhite,
-                ).copyWith(
-                  color: AppColor.kGrayscale40,
-                  fontWeight: FontWeight.w500,
-                  fontSize: 14,
-                ),
-          ),
-        ),
-        Expanded(
-          flex: 2,
-          child: Divider(
-            color: AppColor.kLine,
-          ),
-        ),
-      ],
     );
   }
 }
