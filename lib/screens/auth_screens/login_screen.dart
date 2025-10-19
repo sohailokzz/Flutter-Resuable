@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_reusable/widgets/divider_row.dart';
+import 'package:flutter_reusable/widgets/primary_text_button.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 import '../../utilis/app_colors.dart';
@@ -404,29 +405,6 @@ class _PrimaryButtonState extends State<PrimaryButton>
             ),
           ),
         ),
-      ),
-    );
-  }
-}
-
-class PrimaryTextButton extends StatelessWidget {
-  const PrimaryTextButton({
-    super.key,
-    required this.onPressed,
-    required this.title,
-    required this.textStyle,
-  });
-  final Function() onPressed;
-  final String title;
-  final TextStyle textStyle;
-
-  @override
-  Widget build(BuildContext context) {
-    return GestureDetector(
-      onTap: onPressed,
-      child: Text(
-        title,
-        style: textStyle,
       ),
     );
   }
