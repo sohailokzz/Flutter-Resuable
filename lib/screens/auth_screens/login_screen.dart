@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_reusable/widgets/divider_row.dart';
 import 'package:flutter_reusable/widgets/primary_text_button.dart';
+import 'package:flutter_reusable/widgets/textfield_with_title.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 import '../../utilis/app_colors.dart';
@@ -163,49 +164,6 @@ class LoginScreen extends StatelessWidget {
           );
         },
       ),
-    );
-  }
-}
-
-class TextFieldWithTitle extends StatelessWidget {
-  final String title;
-  final String? hintText;
-  final TextEditingController? controller;
-  final bool? isPassword;
-  final Widget? suffixIcon;
-  final Widget? prefixIcon;
-
-  const TextFieldWithTitle({
-    super.key,
-    required this.title,
-    this.hintText,
-    this.controller,
-    this.isPassword,
-    this.suffixIcon,
-    this.prefixIcon,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    final textTheme = Theme.of(context).textTheme;
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        Text(
-          title,
-          style: textTheme.labelLarge,
-        ),
-        const SizedBox(
-          height: 8,
-        ),
-        PrimaryTextFormField(
-          borderRadius: BorderRadius.circular(24),
-          hintText: 'Khaledmohammed@gmail.com',
-          controller: controller!,
-          width: 327,
-          height: 52,
-        ),
-      ],
     );
   }
 }
