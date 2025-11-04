@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:flutter_reusable/widgets/divider_row.dart';
 import 'package:flutter_reusable/widgets/primary_text_button.dart';
 import 'package:flutter_reusable/widgets/secondary_button.dart';
