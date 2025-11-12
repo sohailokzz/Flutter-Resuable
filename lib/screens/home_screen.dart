@@ -31,7 +31,7 @@ class HomeScreen extends StatelessWidget {
             ),
             SizedBox(height: 16),
             Text(
-              'This demonstrates how to structure themes in separate files for better maintainability and architecture.',
+              'This demonstrates how structure themes in separate files for better maintainability and architecture.',
               style: theme.textTheme.bodyLarge,
             ),
             SizedBox(height: 24),
