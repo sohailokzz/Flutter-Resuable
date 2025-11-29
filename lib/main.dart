@@ -31,6 +31,7 @@ class MyApp extends StatelessWidget {
             debugShowCheckedModeBanner: false,
 
             // Use separated theme files
+            //this code is done from antigravity flutter course
             theme: AppTheme.lightTheme,
             darkTheme: AppTheme.darkTheme,
             themeMode: ThemeMode.system,
