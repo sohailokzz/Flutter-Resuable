@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_reusable/routes/routes_names.dart';
+import 'package:flutter_reusable/widgets/custom_button.dart';
 import 'package:flutter_reusable/widgets/divider_row.dart';
 import 'package:flutter_reusable/widgets/primary_text_button.dart';
 import 'package:flutter_reusable/widgets/secondary_button.dart';
@@ -9,7 +11,6 @@ import '../../utilis/app_colors.dart';
 import '../../utilis/image_assets.dart';
 import '../../widgets/custom_richtext.dart';
 import '../../widgets/password_textfield.dart';
-import '../../widgets/primary_button.dart';
 import '../../widgets/terms_privacy_text.dart';
 import 'login_screen_vm.dart';
 
@@ -93,17 +94,22 @@ class LoginScreen extends StatelessWidget {
                   const SizedBox(height: 32),
                   Column(
                     children: [
-                      PrimaryButton(
-                        elevation: 0,
-                        onTap: () {},
-                        text: 'LogIn',
-                        bgColor: AppColor.kPrimary,
+                      CustomButton(
+                        onPressed: () {
+                          Navigator.pushNamed(
+                            context,
+                            RoutesName.homeScreen,
+                          );
+                        },
+                        text: 'Log In',
+                        backgroundColor: AppColor.kPrimary,
                         borderRadius: 20,
                         height: 46,
                         width: 327,
                         textColor: AppColor.kWhite,
                         fontSize: 14,
                       ),
+
                       const SizedBox(
                         height: 24,
                       ),
