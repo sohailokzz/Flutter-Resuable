@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_reusable/routes/routes.dart';
 import 'package:flutter_reusable/routes/routes_names.dart';
-import 'package:flutter_reusable/screens/auth_screens/login_screen.dart';
 import 'package:flutter_reusable/screens/auth_screens/login_screen_vm.dart';
 import 'package:provider/provider.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
