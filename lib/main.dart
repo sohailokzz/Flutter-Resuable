@@ -31,14 +31,11 @@ class MyApp extends StatelessWidget {
             title: 'Flutter Theme Architecture',
             debugShowCheckedModeBanner: false,
 
-            //this code is done from antigravity flutter course
             theme: AppTheme.lightTheme,
             darkTheme: AppTheme.darkTheme,
             themeMode: ThemeMode.system,
             initialRoute: RoutesName.loginScreen,
             onGenerateRoute: AppRoutes.onGenerateRoute,
-
-            // home: LoginScreen(),
           ),
         );
       },
