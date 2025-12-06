@@ -3,10 +3,6 @@ import 'package:google_fonts/google_fonts.dart';
 import 'app_colors.dart';
 
 class AppTextStyles {
-  // Base font family
-  static String get fontFamily =>
-      'Roboto'; // or GoogleFonts.roboto().fontFamily!
-
   // Light Theme Text Styles
   static TextTheme lightTextTheme = TextTheme(
     displayLarge: GoogleFonts.plusJakartaSans(
