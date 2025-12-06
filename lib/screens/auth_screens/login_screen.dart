@@ -4,13 +4,13 @@ import 'package:flutter_reusable/widgets/custom_button.dart';
 import 'package:flutter_reusable/widgets/divider_row.dart';
 import 'package:flutter_reusable/widgets/primary_text_button.dart';
 import 'package:flutter_reusable/widgets/secondary_button.dart';
-import 'package:flutter_reusable/widgets/textfield_with_title.dart';
+import 'package:flutter_reusable/widgets/primary_textfield.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 import '../../utilis/app_colors.dart';
 import '../../utilis/image_assets.dart';
 import '../../widgets/custom_richtext.dart';
-import '../../widgets/password_textfield.dart';
+
 import '../../widgets/terms_privacy_text.dart';
 import 'login_screen_vm.dart';
 
@@ -46,10 +46,21 @@ class LoginScreen extends StatelessWidget {
                     ),
                   ),
                   const SizedBox(height: 36),
-                  TextFieldWithTitle(
-                    title: 'Email',
-                    hintText: "khalid@gmail.com",
-                    controller: loginScreenVm.emailC,
+                  Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        'Email',
+                        style: textTheme.labelLarge,
+                      ),
+                      const SizedBox(height: 8),
+                      PrimaryTextFormField(
+                        keyboardType: TextInputType.emailAddress,
+                        borderRadius: BorderRadius.circular(24),
+                        hintText: "khalid@gmail.com",
+                        controller: loginScreenVm.emailC,
+                      ),
+                    ],
                   ),
                   const SizedBox(
                     height: 16,
@@ -59,24 +70,14 @@ class LoginScreen extends StatelessWidget {
                     children: [
                       Text(
                         'Password',
-                        style:
-                            GoogleFonts.plusJakartaSans(
-                              fontSize: 14,
-                              fontWeight: FontWeight.w500,
-                              color: AppColor.kWhite,
-                            ).copyWith(
-                              color: AppColor.kGrayscaleDark100,
-                              fontWeight: FontWeight.w600,
-                              fontSize: 14,
-                            ),
+                        style: textTheme.labelLarge,
                       ),
                       const SizedBox(height: 8),
-                      PasswordTextField(
+                      PrimaryTextFormField(
                         borderRadius: BorderRadius.circular(24),
                         hintText: 'Password',
                         controller: loginScreenVm.passwordC,
-                        width: 327,
-                        height: 52,
+                        isPassword: true,
                       ),
                     ],
                   ),
