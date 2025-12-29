@@ -166,7 +166,6 @@ class LoginScreen extends StatelessWidget {
                       title4: ' Conditions of Use',
                     ),
                   ),
-                  const SizedBox(height: 24),
                 ],
               ),
             ),
