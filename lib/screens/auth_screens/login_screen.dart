@@ -150,7 +150,7 @@ class LoginScreen extends StatelessWidget {
                           bgColor: AppColor.kBackground.withValues(
                             alpha: 0.3,
                           ),
-                          text: 'Continue wit Google',
+                          text: 'Continue with Google',
                           icons: ImagesPath.kGoogleIcon,
                         ),
                       ],
