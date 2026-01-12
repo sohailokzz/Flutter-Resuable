@@ -160,7 +160,7 @@ class LoginScreen extends StatelessWidget {
                   const Padding(
                     padding: EdgeInsets.symmetric(horizontal: 40),
                     child: TermsAndPrivacyText(
-                      title1: '  By signing up you agree to our',
+                      title1: '  By signing up yo agree to our',
                       title2: ' Terms ',
                       title3: '  and',
                       title4: ' Conditions of Use',
