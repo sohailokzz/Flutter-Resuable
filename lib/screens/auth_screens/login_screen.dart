@@ -162,7 +162,7 @@ class LoginScreen extends StatelessWidget {
                     child: TermsAndPrivacyText(
                       title1: '  By signing up you agree to our',
                       title2: ' Terms ',
-                      title3: '  and',
+                      title3: ' and',
                       title4: ' Conditions of Use',
                     ),
                   ),
