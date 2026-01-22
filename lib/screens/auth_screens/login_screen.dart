@@ -57,7 +57,7 @@ class LoginScreen extends StatelessWidget {
                       PrimaryTextFormField(
                         keyboardType: TextInputType.emailAddress,
                         borderRadius: BorderRadius.circular(24),
-                        hintText: "khalid@gmail.com",
+                        hintText: "sohail@gmail.com",
                         controller: loginScreenVm.emailC,
                       ),
                     ],
