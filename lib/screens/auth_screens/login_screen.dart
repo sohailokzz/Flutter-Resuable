@@ -10,7 +10,6 @@ import 'package:provider/provider.dart';
 import '../../utilis/app_colors.dart';
 import '../../utilis/image_assets.dart';
 import '../../widgets/custom_richtext.dart';
-
 import '../../widgets/terms_privacy_text.dart';
 import 'login_screen_vm.dart';
 
