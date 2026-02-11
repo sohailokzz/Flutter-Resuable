@@ -1,6 +1,5 @@
 // File: lib/themes/theme_helper.dart
 import 'package:flutter/material.dart';
-
 import 'app_theme_extensions.dart';
 
 class ThemeHelper {

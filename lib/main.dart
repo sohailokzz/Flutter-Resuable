@@ -28,9 +28,8 @@ class MyApp extends StatelessWidget {
           ],
 
           child: MaterialApp(
-            title: 'Flutter Theme Architecture',
+            title: 'Flutter Architecture',
             debugShowCheckedModeBanner: false,
-
             theme: AppTheme.lightTheme,
             darkTheme: AppTheme.darkTheme,
             themeMode: ThemeMode.system,
