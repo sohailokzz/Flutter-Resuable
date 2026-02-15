@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'app_theme_extensions.dart';
 
 class ThemeHelper {
-  // Get custom colors extension
+  // Get colors extension
   static AppCustomColors getCustomColors(BuildContext context) {
     return Theme.of(context).extension<AppCustomColors>()!;
   }
