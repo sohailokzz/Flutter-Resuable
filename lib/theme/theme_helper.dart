@@ -12,7 +12,7 @@ class ThemeHelper {
     return Theme.of(context).brightness == Brightness.dark;
   }
 
-  // Get appropriate color based on theme
+  // Get  color based on theme
   static Color getAdaptiveColor(
     BuildContext context,
     Color lightColor,
