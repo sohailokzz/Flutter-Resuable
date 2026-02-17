@@ -5,7 +5,7 @@ import 'app_theme_extensions.dart';
 import 'components_theme.dart';
 
 class AppTheme {
-  // Light Theme
+  // Light
   static ThemeData lightTheme = ThemeData(
     brightness: Brightness.light,
     useMaterial3: true,
