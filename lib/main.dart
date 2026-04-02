@@ -21,7 +21,6 @@ class MyApp extends StatelessWidget {
       builder: (context, orientation, screenType) {
         return MultiProvider(
           providers: [
-            // Add your providers here
             ChangeNotifierProvider(
               create: (_) => LoginScreenVm(),
             ),
