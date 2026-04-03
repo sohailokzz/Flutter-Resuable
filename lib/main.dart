@@ -14,7 +14,6 @@ void main() {
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
-
   @override
   Widget build(BuildContext context) {
     return ResponsiveSizer(
@@ -25,7 +24,6 @@ class MyApp extends StatelessWidget {
               create: (_) => LoginScreenVm(),
             ),
           ],
-
           child: MaterialApp(
             title: 'Flutter Theme Architecture',
             debugShowCheckedModeBanner: false,
