@@ -62,10 +62,8 @@ class AppTheme {
 
     // Scaffold
     scaffoldBackgroundColor: AppColor.darkBackground,
-
     // Text Theme
     textTheme: AppTextStyles.darkTextTheme,
-
     // Component Themes
     appBarTheme: ComponentThemes.darkAppBarTheme,
     elevatedButtonTheme: ComponentThemes.darkElevatedButtonTheme,
