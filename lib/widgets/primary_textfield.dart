@@ -4,7 +4,6 @@ import 'package:google_fonts/google_fonts.dart';
 import '../utilis/app_colors.dart';
 
 // ignore: must_be_immutable
-// ignore: must_be_immutable
 class PrimaryTextFormField extends StatefulWidget {
   PrimaryTextFormField({
     super.key,
