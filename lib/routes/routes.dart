@@ -16,6 +16,16 @@ class AppRoutes {
           builder: (_) => const LoginScreen(),
         );
 
+      // case RoutesName.signUpScreen:
+      //   return MaterialPageRoute(
+      //     builder: (_) => const SignUpScreen(),
+      //   );
+
+      // case RoutesName.forgotPasswordScreen:
+      //   return MaterialPageRoute(
+      //     builder: (_) => const ForgotPasswordScreen(),
+      //   );
+
       // Edit Note Screen
       //   case EditNoteScreen.routeName:
       //     final NotesModel notesModel = settings.arguments as NotesModel;
