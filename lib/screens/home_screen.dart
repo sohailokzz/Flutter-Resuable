@@ -78,7 +78,7 @@ class HomeScreen extends StatelessWidget {
             TextField(
               decoration: InputDecoration(
                 labelText: 'Email',
-                hintText: 'Enter your email',
+                hintText: 'Enter your Email',
                 prefixIcon: Icon(Icons.email),
               ),
             ),
@@ -93,7 +93,7 @@ class HomeScreen extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      'Theme Benefits',
+                      'Theme Benefit',
                       style: Theme.of(context).textTheme.titleLarge,
                     ),
                     SizedBox(height: 8),
