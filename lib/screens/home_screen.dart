@@ -82,9 +82,7 @@ class HomeScreen extends StatelessWidget {
                 prefixIcon: Icon(Icons.email),
               ),
             ),
-
             SizedBox(height: 24),
-
             // Card
             Card(
               child: Padding(
@@ -105,9 +103,7 @@ class HomeScreen extends StatelessWidget {
                 ),
               ),
             ),
-
             SizedBox(height: 24),
-
             // Theme Status
             Container(
               padding: EdgeInsets.all(16),
