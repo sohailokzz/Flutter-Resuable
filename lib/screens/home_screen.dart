@@ -35,7 +35,6 @@ class HomeScreen extends StatelessWidget {
               style: theme.textTheme.bodyLarge,
             ),
             SizedBox(height: 24),
-
             // Buttons Row
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -71,9 +70,7 @@ class HomeScreen extends StatelessWidget {
                 ),
               ],
             ),
-
             SizedBox(height: 24),
-
             // Text Field
             TextField(
               decoration: InputDecoration(
@@ -127,7 +124,6 @@ class HomeScreen extends StatelessWidget {
                 textAlign: TextAlign.center,
               ),
             ),
-
             SizedBox(
               height: 16,
             ),
