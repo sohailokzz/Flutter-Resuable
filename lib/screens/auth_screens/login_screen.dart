@@ -77,6 +77,16 @@ class LoginScreen extends StatelessWidget {
                         hintText: 'Password',
                         controller: loginScreenVm.passwordC,
                         isPassword: true,
+                        prefixIcon: IconButton(
+                          icon: Icon(
+                            loginScreenVm.isPasswordVisible
+                                ? Icons.visibility
+                                : Icons.visibility_off,
+                          ),
+                          onPressed: () {
+                            loginScreenVm.togglePasswordVisibility();
+                          },
+                        ),
                       ),
                     ],
                   ),
