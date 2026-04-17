@@ -81,7 +81,6 @@ class AppTextStyles {
       color: AppColor.lightTextSecondary,
     ),
   );
-
   // Dark Theme Text Styles
   static TextTheme darkTextTheme = TextTheme(
     displayLarge: GoogleFonts.plusJakartaSans(
