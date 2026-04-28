@@ -22,7 +22,6 @@ class AppTheme {
 
     // Scaffold
     scaffoldBackgroundColor: AppColor.lightBackground,
-
     // Text Theme
     textTheme: AppTextStyles.lightTextTheme,
 
