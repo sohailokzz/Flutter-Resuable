@@ -24,14 +24,12 @@ class AppTheme {
     scaffoldBackgroundColor: AppColor.lightBackground,
     // Text Theme
     textTheme: AppTextStyles.lightTextTheme,
-
     // Component Themes
     appBarTheme: ComponentThemes.lightAppBarTheme,
     elevatedButtonTheme: ComponentThemes.lightElevatedButtonTheme,
     inputDecorationTheme: ComponentThemes.lightInputDecorationTheme,
     cardTheme: ComponentThemes.lightCardTheme,
     bottomNavigationBarTheme: ComponentThemes.lightBottomNavTheme,
-
     // Extensions
     extensions: <ThemeExtension<dynamic>>[
       const AppCustomColors(
@@ -43,7 +41,6 @@ class AppTheme {
       ),
     ],
   );
-
   // Dark Theme
   static ThemeData darkTheme = ThemeData(
     brightness: Brightness.dark,
