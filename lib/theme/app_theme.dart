@@ -9,7 +9,6 @@ class AppTheme {
   static ThemeData lightTheme = ThemeData(
     brightness: Brightness.light,
     useMaterial3: true,
-
     // Color Scheme
     colorScheme: const ColorScheme.light(
       primary: AppColor.lightPrimary,
@@ -19,7 +18,6 @@ class AppTheme {
       surface: AppColor.lightSurface,
       error: AppColor.lightError,
     ),
-
     // Scaffold
     scaffoldBackgroundColor: AppColor.lightBackground,
     // Text Theme
@@ -45,7 +43,6 @@ class AppTheme {
   static ThemeData darkTheme = ThemeData(
     brightness: Brightness.dark,
     useMaterial3: true,
-
     // Color Scheme
     colorScheme: const ColorScheme.dark(
       primary: AppColor.darkPrimary,
@@ -55,7 +52,6 @@ class AppTheme {
       surface: AppColor.darkSurface,
       error: AppColor.darkError,
     ),
-
     // Scaffold
     scaffoldBackgroundColor: AppColor.darkBackground,
     // Text Theme
