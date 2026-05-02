@@ -28,6 +28,7 @@ class AppTheme {
     inputDecorationTheme: ComponentThemes.lightInputDecorationTheme,
     cardTheme: ComponentThemes.lightCardTheme,
     bottomNavigationBarTheme: ComponentThemes.lightBottomNavTheme,
+
     // Extensions
     extensions: <ThemeExtension<dynamic>>[
       const AppCustomColors(
@@ -39,6 +40,7 @@ class AppTheme {
       ),
     ],
   );
+
   // Dark Theme
   static ThemeData darkTheme = ThemeData(
     brightness: Brightness.dark,
@@ -62,7 +64,6 @@ class AppTheme {
     inputDecorationTheme: ComponentThemes.darkInputDecorationTheme,
     cardTheme: ComponentThemes.darkCardTheme,
     bottomNavigationBarTheme: ComponentThemes.darkBottomNavTheme,
-
     // Extensions
     extensions: <ThemeExtension<dynamic>>[
       const AppCustomColors(
